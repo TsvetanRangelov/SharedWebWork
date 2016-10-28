@@ -12,7 +12,7 @@ We will be using Meteor as our IDE.
 To run the program simply type *node index.js* into the terminal.
 For more details follow the guidelines from our [Socket.io] (http://socket.io/get-started/chat/) IS lab.
 
-**TODO LIST**
+**TODO LIST:**
 - [ ] Create .gitignore for all meteor files
 - [ ] Divide tasks (front-end, back-end maybe?)
 - [ ] Get meteor insatalled on lab machine
@@ -20,7 +20,7 @@ For more details follow the guidelines from our [Socket.io] (http://socket.io/ge
 
 
 
-#Exercis Description from PDF
+#Exercise Description from PDF
 
 
 **Task:**
