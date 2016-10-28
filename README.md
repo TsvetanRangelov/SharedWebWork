@@ -1,6 +1,21 @@
 # SharedWebWork
 Assessed Coursework for the Interactive Systems 3 course with Helen Purchase.
 
+**Requirements**
+This project is built using [Node.js] (https://nodejs.org/en/). Make sure it is installed before you proceed.
+Before running the project you might need to install the proper packages. Go to the project directory and type * *npm install --save express@4.10.2* * .
+We will be using Meteor as are IDE.
+To run the program simply type * *node index.js* * into the terminal.
+For more details follow the guidelines from our [Socket.io] (http://socket.io/get-started/chat/) IS lab.
+
+**TODO LIST**
+- [ ] Create .gitignore for all meteor files
+- [ ] Divide tasks (front-end, back-end maybe?)
+- [ ] Get meteor insatalled on lab machine
+
+**Exercis Description**
+
+
 **Task:**
 Design, implement and evaluate and interactive shared whiteboad to support the collaborative activity of preparing documents.
 
