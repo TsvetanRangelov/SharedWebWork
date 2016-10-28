@@ -1,7 +1,8 @@
 # SharedWebWork
 Assessed Coursework for the Interactive Systems 3 course with Helen Purchase.
 
-**Task**: Design, implement and evaluate and interactive shared whiteboad to support the collaborative activity of preparing documents.
+**Task:**
+Design, implement and evaluate and interactive shared whiteboad to support the collaborative activity of preparing documents.
 
 **System specification:**
 * The system must be able to be used by several people in the creation of documents – the interaction must be simultaneous and distributed.
