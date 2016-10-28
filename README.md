@@ -49,4 +49,4 @@ church fair.
 using video, images and text. Their IT department believes that more computing resources are
 needed to improve the system response time. The data team (Jo, Joe and Joh) have been
 collecting data on a system use on a daily basis for three years: they want to use this data to
-persuade the Board of Directors that they need more resources
+persuade the Board of Directors that they need more resources.
