@@ -1,13 +1,13 @@
 # SharedWebWork
 Assessed Coursework for the Interactive Systems 3 course with Helen Purchase.
+
 **Task**: Design, implement and evaluate and interactive shared whiteboad to support the collaborative activity of preparing documents.
-Task: Design, implement and evaluate an interactive shared whiteboard to support the collaborative
-activity of preparing documents.
+
 **System specification:**
--The system must be able to be used by several people in the creation of documents – the interaction must be simultaneous and distributed.
--The system should include the usual functionality you would expect from an interactive system used for creating documents.
--The system should be creative, and show evidence of imaginative design.
--The system must be implemented using javscript and node.js, although you may use additional technologies if you wish.
+*The system must be able to be used by several people in the creation of documents – the interaction must be simultaneous and distributed.*
+*The system should include the usual functionality you would expect from an interactive system used for creating documents.*
+*The system should be creative, and show evidence of imaginative design.*
+*The system must be implemented using javscript and node.js, although you may use additional technologies if you wish.*
 
 **Process:**
 -You must include at least two rounds of formative evaluation: the first must be evaluation of your system design; the second must be evaluation of your system implementation. You may include more formative evaluations if you like.
@@ -22,6 +22,7 @@ The report should include at least the following sections:
 The report must be a maximum of ten A4 single-sided pages, with a maximum of 3500 words.1
 
 At the demonstration, you must:
+
 -Demonstrate the system in use, with at least two participants working on a common
 document.
 -Demonstrate the basic essential features of the system first, before showing any
