@@ -27,3 +27,25 @@ html, body {
     display: table-cell;
     vertical-align: middle;
 }
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 3px;
+}
+
+.list-group{
+  margin-bottom: 0;
+}
+
+#login-dropdown-list{
+  top: 34px;
+}
+
+#login-username-label, #login-password-label {
+  display: block !important;
+}
+
+/*#login-sign-in-link{
+  display:none;
+}*/

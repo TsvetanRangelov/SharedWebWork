@@ -24,6 +24,7 @@ accounts-ui
 accounts-password
 
 
-bootstrap
 service-configuration
 accounts-facebook
+session
+mizzao:bootstrap-3

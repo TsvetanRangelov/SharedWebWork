@@ -1,4 +1,5 @@
 import { Meteor } from 'meteor/meteor';
+import '../imports/chat/chat.js';
 
 Meteor.startup(() => {
   var express = require('express'),

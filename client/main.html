@@ -2,21 +2,75 @@
   <title>whiteboard</title>
 </head>
 
-<body style="background-color: turquoise">
-  <div class="var pull-right">
-    <div class="var pull-left">{{> loginButtons}}</div>
-    {{#if currentUser}} {{> hello}} {{> info}} {{else}}
-    <div class=" var pull-right">{{> notLoggedIn}}</div> {{/if}}
+<body style="background-color: turquoise" class="container-fluid">
+
+  <div class="var pull-left col-md-9">
+    {{> loginButtons}}
   </div>
-  <div class="container">
-    <div class="vertical-center-row">
-      <div class="text-center col-md-4">
+    {{#if currentUser}} 
+      <div class="var pull-right col-md-3">
+        <div >
+          <div>
+            <!-- spreadsheet or wtv here -->
+          </div>
+
+          <div>
+            {{> rooms}}
+            {{> messages}}
+            {{> input}}
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class=" var pull-right">
+        {{> notLoggedIn}}
+      </div> 
+      <div class="text-center col-md-12">
         <h1>Welcome to Shared Whiteboard</h1>
       </div>
-    </div>
-  </div>
+      
+    {{/if}}
 </body>
 
 <template name="notLoggedIn">
   <p>You must log in to see content.</p>
+</template>
+
+<template name="input">
+    <!-- <input type="text" id="msg" placeholder="Your message goes here...">
+    <input type="button" value="Send message" class="btn btn-primary sendMsg"> -->
+
+      <div class="input-group">
+        <input type="text" id="msg" class="form-control" placeholder="Your message goes here">
+        <span class="input-group-btn">
+          <button class="btn btn-primary sendMsg" type="button"><span class="glyphicon glyphicon-send"></span>&nbsp;</button>
+        </span>
+      </div>
+
+</template>
+
+<template name="messages">
+    <div class="title">Room: {{roomname}}</div>
+    <div id="messages" style="background-color: #ffffff; border: 1px solid darkgray; max-height: 600px; overflow: auto">
+        {{#each messages}}
+            {{> message}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="message">
+    <p><strong>{{user}}</strong> <span style="font-size: 0.7em; color: darkgray">({{timestamp}})</span>: <i>{{msg}}</i></p>
+</template>
+
+<template name="rooms">
+    <div class="title">Join a room:</div>
+    <ul class="list-group">
+    {{#each rooms}}
+        {{> room}}
+    {{/each}}
+    </ul>
+</template>
+
+<template name="room">
+    <li class="list-group-item" style="cursor: pointer; {{roomstyle}}">{{roomname}}</li>
 </template>
