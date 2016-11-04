@@ -3,14 +3,9 @@ Assessed Coursework for the Interactive Systems 3 course with Helen Purchase.
 
 **Requirements:**
 
-This project is built using [Node.js] (https://nodejs.org/en/). Make sure it is installed before you proceed.
-
-Before running the project you might need to install the proper packages. Go to the project directory and type *npm install --save express@4.10.2*.
-
 We will be using Meteor as our IDE.
 
-To run the program simply type *node index.js* into the terminal.
-For more details follow the guidelines from our [Socket.io] (http://socket.io/get-started/chat/) IS lab.
+To run the program simply type *meteor* into the terminal.
 
 **TODO LIST:**
 - [ ] Create .gitignore for all meteor files
