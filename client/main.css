@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
 
 #canvas {
   display: block;
@@ -11,8 +15,8 @@
   position: left;
 }
 
-html, body, .container {
-    height: 100%;
+.container {
+    height: 80%;
     width: 100%;
 }
 .container {

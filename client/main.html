@@ -2,10 +2,11 @@
   <title>whiteboard</title>
 </head>
 
-<body style= "background-color: turquoise">
+<body style="background-color: turquoise">
   <div class="var pull-right">
-    <div>{{> loginButtons}}</div>
-    {{#if currentUser}} {{> hello}} {{> info}} {{else}} {{> notLoggedIn}} {{/if}}
+    <div class="var pull-left">{{> loginButtons}}</div>
+    {{#if currentUser}} {{> hello}} {{> info}} {{else}}
+    <div class=" var pull-right">{{> notLoggedIn}}</div> {{/if}}
   </div>
   <div class="container">
     <div class="vertical-center-row">
