@@ -1,5 +1,8 @@
 <head>
   <title>whiteboard</title>
+  <link rel="stylesheet" href="main.css"/>
+  <script src="socket.io/socket.io.js></script>
+  <script scr="client.js"></script>
 </head>
 
 <body>
@@ -10,8 +13,13 @@
   {{#if currentUser}}
     {{> hello}}
     {{> info}}
+    {{> whiteboard}}
   {{/if}}
 </body>
+
+<template name="whiteboard">
+  <canvas id="drawing"></canvas>
+</template>
 
 <template name="hello">
   <button>Click Me</button>
