@@ -1,0 +1,2 @@
+app secret 2e2ecb21b8c0229f73e01b3595a8d483
+app id sharedWhiteboard

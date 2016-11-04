@@ -6,8 +6,12 @@
   },
   "dependencies": {
     "bcrypt": "^0.8.7",
+<<<<<<< HEAD
     "express": "",
     "meteor-node-stubs": "~0.2.0",
     "socket.io": ""
+=======
+    "meteor-node-stubs": "~0.2.0"
+>>>>>>> 36642e51b0a074924f850f83b4dd8883d0ab6370
   }
 }
