@@ -5,7 +5,7 @@ Assessed Coursework for the Interactive Systems 3 course with Helen Purchase.
 
 We will be using Meteor as our IDE.
 
-To run the program simply goto SharedWhiteboard dir and type *meteor* into the terminal.
+To run the program simply goto SharedWhiteboard dir and type *meteor* into the terminal..
 
 **TODO LIST:**
 - [ ] Create .gitignore for all meteor files
