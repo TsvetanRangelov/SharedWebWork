@@ -3,15 +3,22 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Welcome to Shared whiteboard</h1>
 
   {{> loginButtons}}
 
   {{#if currentUser}}
     {{> hello}}
     {{> info}}
+  {{else}}
+    {{> notLoggedIn}}
   {{/if}}
+
 </body>
+
+<template name="notLoggedIn">
+  <p>You must log in to see content.</p>
+</template>
 
 <template name="hello">
   <button>Click Me</button>
